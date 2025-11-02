@@ -12,11 +12,14 @@ import tempfile
 import os
 import re
 import json
+from dotenv import load_dotenv
 
+
+load_dotenv()
 # ================================
 # 🔹 Hugging Face Setup
 # ================================
-HF_TOKEN = "REMOVED"
+HF_TOKEN = os.getenv("HF_TOKEN")
 MODEL = "meta-llama/Meta-Llama-3-70B-Instruct"
 client = InferenceClient(token=HF_TOKEN)
 

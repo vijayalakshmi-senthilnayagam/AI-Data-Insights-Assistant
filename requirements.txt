@@ -1,4 +1,4 @@
-# pip install -U streamlit pandas numpy matplotlib seaborn huggingface_hub reportlab
+# pip install -U streamlit pandas numpy matplotlib seaborn huggingface_hub reportlab python-dotenv
 
 # streamlit
 # pandas
@@ -7,3 +7,4 @@
 # seaborn
 # huggingface_hub
 # reportlab
+# python-dotenv
