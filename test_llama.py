@@ -1,9 +1,13 @@
 from huggingface_hub import InferenceClient
+from dotenv import load_dotenv
+import os
 
+
+load_dotenv()
 # 🔹 Initialize client with your token
 client = InferenceClient(
     model="meta-llama/Meta-Llama-3-70B-Instruct",
-    token="REMOVED"
+    token=os.getenv("HF_TOKEN")
 )
 
 # 🔹 Test query
