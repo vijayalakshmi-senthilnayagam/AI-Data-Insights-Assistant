@@ -1,0 +1,11 @@
+Product,Category,Price,Units Sold,Region
+Shampoo,Haircare,180,120,North
+Toothpaste,Oralcare,90,180,South
+Soap,Bodycare,40,300,West
+Face Wash,Skincare,150,100,East
+Conditioner,Haircare,200,80,North
+Lotion,Skincare,220,75,South
+Deodorant,Bodycare,160,130,East
+Handwash,Bodycare,70,210,West
+Toothbrush,Oralcare,60,160,North
+Body Wash,Bodycare,190,90,South

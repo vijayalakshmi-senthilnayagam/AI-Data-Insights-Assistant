@@ -1,0 +1,9 @@
+# pip install -U streamlit pandas numpy matplotlib seaborn huggingface_hub reportlab
+
+# streamlit
+# pandas
+# numpy
+# matplotlib
+# seaborn
+# huggingface_hub
+# reportlab
